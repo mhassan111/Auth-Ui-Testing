@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Compose-Testing</string>
+    <string name="increment_counter">increment_counter</string>
+    <string name="clicks">Clicks: %d</string>
+</resources>
