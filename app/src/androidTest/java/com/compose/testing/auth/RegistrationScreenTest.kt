@@ -31,8 +31,6 @@ class RegistrationScreenTest {
     @Test
     fun testRegistrationInputFieldAreVisible() {
 
-        // Find Nodes with Tags
-
         // Checks All Input Fields does Exists
         userNameField.assertExists()
         passwordTextField.assertExists()
