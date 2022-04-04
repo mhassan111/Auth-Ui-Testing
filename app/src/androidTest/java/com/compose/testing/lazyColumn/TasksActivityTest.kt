@@ -1,4 +1,4 @@
-package com.compose.testing.lazyColum
+package com.compose.testing.lazyColumn
 
 import androidx.compose.ui.test.*
 import androidx.compose.ui.test.junit4.createAndroidComposeRule
@@ -35,7 +35,7 @@ class TasksActivityTest {
         }
         composeTestRule.onNodeWithTag(TASK_LIST_TEST_TAG)
             .onChildren()
-            .assertCountEquals(4)
+            .assertCountEquals(14)
     }
 
     @Test
@@ -63,6 +63,16 @@ class TasksActivityTest {
         Task("Buy Milk and eggs!"),
         Task("Run 3 miles"),
         Task("Take puppy to clinic"),
+        Task("Plan for weekend trip"),
+        Task("Plan for weekend trip"),
+        Task("Plan for weekend trip"),
+        Task("Plan for weekend trip"),
+        Task("Plan for weekend trip"),
+        Task("Plan for weekend trip"),
+        Task("Plan for weekend trip"),
+        Task("Plan for weekend trip"),
+        Task("Plan for weekend trip"),
+        Task("Plan for weekend trip"),
         Task("Plan for weekend trip")
     )
 }

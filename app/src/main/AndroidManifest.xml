@@ -11,7 +11,7 @@
         android:theme="@style/Theme.ComposeTesting">
 
         <activity
-            android:name=".rally.RallyActivity"
+            android:name=".pagination.PaginationActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.ComposeTesting">
@@ -21,7 +21,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".lazyColum.TasksActivity" />
+        <activity android:name=".lazyColumn.TasksActivity" />
         <activity android:name=".counter.CounterActivity" />
 
     </application>

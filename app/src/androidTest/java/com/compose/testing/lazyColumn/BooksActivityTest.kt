@@ -1,4 +1,4 @@
-package com.compose.testing.lazyColum
+package com.compose.testing.lazyColumn
 
 import androidx.compose.runtime.mutableStateListOf
 import androidx.compose.ui.test.assertCountEquals
@@ -7,8 +7,6 @@ import androidx.compose.ui.test.junit4.createComposeRule
 import androidx.compose.ui.test.onChildren
 import androidx.compose.ui.test.onNodeWithTag
 import androidx.test.ext.junit.runners.AndroidJUnit4
-import com.compose.testing.lazyColumn.Book
-import com.compose.testing.lazyColumn.BooksList
 import com.compose.testing.ui.theme.ComposeTestingTheme
 import org.junit.Rule
 import org.junit.Test

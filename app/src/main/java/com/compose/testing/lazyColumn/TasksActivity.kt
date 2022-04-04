@@ -1,4 +1,4 @@
-package com.compose.testing.lazyColum
+package com.compose.testing.lazyColumn
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -23,7 +23,20 @@ class TasksActivity : ComponentActivity() {
             Task("Buy Milk and eggs!"),
             Task("Run 3 miles"),
             Task("Take puppy to clinic"),
-            Task("Plan for weekend trip")
+            Task("Plan for weekend trip"),
+            Task("Plan for weekend trip"),
+            Task("Plan for weekend trip"),
+            Task("Plan for weekend trip"),
+            Task("Plan for weekend trip"),
+            Task("Plan for weekend trip"),
+            Task("Plan for weekend trip"),
+            Task("Plan for weekend trip"),
+            Task("Plan for weekend trip"),
+            Task("Plan for weekend trip"),
+            Task("Plan for weekend trip"),
+            Task("Plan for weekend trip"),
+            Task("Plan for weekend trip"),
+            Task("Plan for weekend trip"),
         )
 
         setContent {
