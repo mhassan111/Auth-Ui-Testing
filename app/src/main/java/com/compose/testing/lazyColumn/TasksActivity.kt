@@ -16,6 +16,7 @@ import com.compose.testing.ui.theme.ComposeTestingTheme
 const val TASK_LIST_TEST_TAG = "task_list_test_tag"
 
 class TasksActivity : ComponentActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
