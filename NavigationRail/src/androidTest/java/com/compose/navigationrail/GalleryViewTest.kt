@@ -5,7 +5,6 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
-import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.semantics.SemanticsProperties
 import androidx.compose.ui.test.*
 import androidx.compose.ui.test.junit4.createAndroidComposeRule
@@ -76,8 +75,11 @@ class GalleryViewTest {
                 click()
             }
 
+//        composeRule.onNodeWithTag(composeRule.activity.getString(R.string.nav_rail_top_bar_tag))
+//            .assert(hasText(composeRule.activity.getString(R.string.birds), ignoreCase = true))
+//
         composeRule.onNodeWithTag(composeRule.activity.getString(R.string.nav_rail_top_bar_tag))
-            .assert(hasText(composeRule.activity.getString(R.string.birds), ignoreCase = true))
+            .onChildren().assertAny(hasText(composeRule.activity.getString(R.string.birds), ignoreCase = true))
     }
 
     @Test
@@ -107,6 +109,4 @@ class GalleryViewTest {
             .performScrollTo()
             .assertIsDisplayed()
     }
-
-
 }

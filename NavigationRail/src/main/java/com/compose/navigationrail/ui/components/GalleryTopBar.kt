@@ -31,7 +31,10 @@ fun GalleryTopBar(
 ) {
     TopAppBar(
         modifier = Modifier
-            .height(GALLERY_TITLE_BAR_HEIGHT),
+            .height(GALLERY_TITLE_BAR_HEIGHT)
+            .testTag(
+                stringResource(id = R.string.nav_rail_top_bar_tag)
+            ),
         backgroundColor = Color.Transparent,
         elevation = ELEVATION,
         contentPadding = PaddingValues(
@@ -45,9 +48,10 @@ fun GalleryTopBar(
             color = MaterialTheme.colors.primaryVariant,
             style = MaterialTheme.typography.h1,
             textAlign = TextAlign.Start,
-            modifier = Modifier.testTag(
-                stringResource(id = R.string.nav_rail_top_bar_tag)
-            )
         )
     }
 }
+
+//modifier = Modifier.testTag(
+//stringResource(id = R.string.nav_rail_top_bar_tag)
+//)
