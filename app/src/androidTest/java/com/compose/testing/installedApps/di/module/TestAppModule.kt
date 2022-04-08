@@ -1,8 +1,8 @@
-package com.compose.testing.installedApps
+package com.compose.testing.installedApps.di.module
 
 import android.content.Context
+import com.compose.testing.installedApps.di.repository.FakeInstalledAppRepository
 import com.compose.testing.installedApps.repository.InstalledAppRepository
-import com.compose.testing.installedApps.repository.InstalledAppRepositoryImpl
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

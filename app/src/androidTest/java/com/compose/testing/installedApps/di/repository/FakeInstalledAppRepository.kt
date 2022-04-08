@@ -1,8 +1,10 @@
-package com.compose.testing.installedApps
+package com.compose.testing.installedApps.di.repository
 
 import android.content.Context
 import androidx.core.content.ContextCompat
 import com.compose.testing.R
+import com.compose.testing.installedApps.InstalledApp
+import com.compose.testing.installedApps.InstalledAppBlockUtils
 import com.compose.testing.installedApps.repository.InstalledAppRepository
 
 class FakeInstalledAppRepository(private val context: Context) : InstalledAppRepository {

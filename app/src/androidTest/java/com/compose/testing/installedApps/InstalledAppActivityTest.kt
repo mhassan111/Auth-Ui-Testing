@@ -1,6 +1,5 @@
 package com.compose.testing.installedApps
 
-import androidx.compose.animation.ExperimentalAnimationApi
 import androidx.compose.ui.test.assertAny
 import androidx.compose.ui.test.hasText
 import androidx.compose.ui.test.junit4.createAndroidComposeRule
@@ -24,7 +23,6 @@ class InstalledAppActivityTest {
     @get:Rule(order = 1)
     val composeRule = createAndroidComposeRule<InstalledAppActivity>()
 
-    @ExperimentalAnimationApi
     @Before
     fun setUp() {
         hiltRule.inject()

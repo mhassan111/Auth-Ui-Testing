@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ImageOffSet</string>
+    <string name="top_bar">app_top_bar</string>
+    <string name="map_image">map_image</string>
+
+
+</resources>
