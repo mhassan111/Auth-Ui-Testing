@@ -26,4 +26,5 @@ fun Counter() {
         }
         Text(text = stringResource(id = R.string.clicks, counter))
     }
+
 }

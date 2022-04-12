@@ -79,7 +79,8 @@ class GalleryViewTest {
 //            .assert(hasText(composeRule.activity.getString(R.string.birds), ignoreCase = true))
 //
         composeRule.onNodeWithTag(composeRule.activity.getString(R.string.nav_rail_top_bar_tag))
-            .onChildren().assertAny(hasText(composeRule.activity.getString(R.string.birds), ignoreCase = true))
+            .onChildren()
+            .assertAny(hasText(composeRule.activity.getString(R.string.birds), ignoreCase = true))
     }
 
     @Test

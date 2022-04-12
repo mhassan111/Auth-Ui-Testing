@@ -27,7 +27,7 @@ class TasksActivityTest {
     }
 
     @Test
-    fun testTaskListScreenIfTasksAreNotEmpty() {
+    fun testCountOfListItemsAreEqual() {
         composeTestRule.setContent {
             ComposeTestingTheme {
                 TaskListScreen(getTasksList())

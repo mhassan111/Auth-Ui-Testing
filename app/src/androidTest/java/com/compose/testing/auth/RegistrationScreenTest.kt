@@ -44,7 +44,6 @@ class RegistrationScreenTest {
         assertTrue(userNameField.currentText().isNullOrBlank())
         assertTrue(passwordTextField.currentText().isNullOrBlank())
         assertTrue(emailTextField.currentText().isNullOrBlank())
-
         assertEquals("Next", userNameField.imeActionValue())
 
     }
